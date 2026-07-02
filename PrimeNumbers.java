@@ -1,26 +1,32 @@
-import java.util.ArrayList;
 
 public class PrimeNumbers {
 
-    private static void getPrimeNumbers() {
-        ArrayList<Integer> primeNumbersArray = new ArrayList<>();
+    private static void getPrimNumbers() {
+
         for (int i = 1; i <= 1000; i ++) {
+            boolean isPrimeNumber = true;
             for (int j = 2; j < i; j++) {
                 if (i % j == 0) {
+                    isPrimeNumber = false;
                     break;
                 }
             }
-            primeNumbersArray.add(i);
+            if (isPrimeNumber) {
+                System.out.println(i);
+            }
+
         }
 
 
-        System.out.println(primeNumbersArray);
+
     }
+
+        public static void main(String[] args) {
+            getPrimNumbers();
+        }
+
+
     }
 
 
-    static void main(String[] args) {
-
-    }
-}
 
