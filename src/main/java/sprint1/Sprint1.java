@@ -1,35 +1,37 @@
 package sprint1;
+
 import java.util.Scanner;
 
 public class Sprint1 {
 
-
-
-    // exercise one : private method to print the prime number smaller than 1000.
+    /**
+     * Prints all prime numbers up to 1000.
+     */
     private static void printPrimeNumbers() {
 
-            // loop through numbers from 2 to 1000
-            // start loop from 2 because 1 is not a prime number
-            for (int number = 2; number <= 1000; number++) {
+        for (int number = 2; number <= 1000; number++) {
 
-                // 2 is the prime number
-                boolean isPrime = true;
-                // check if number has any divisors
-                for (int divisor = 2; divisor <= Math.sqrt(number); divisor++) {
-                    if (number % divisor == 0) {
-                        isPrime = false;
-                        break;
-                    }
-                }
-                // print prime numbers
-                if (isPrime) {
-                    System.out.println(number);
+            boolean isPrime = true;
+
+            // check if number has any divisors
+            for (int divisor = 2; divisor < number; divisor++) {
+                if (number % divisor == 0) {
+                    isPrime = false;
+                    break;
                 }
             }
+
+            if (isPrime) {
+                System.out.println(number);
+            }
         }
+    }
 
-
-        private static int reverseNumber(int num) {
+    /**
+     * Reverses the digits of a given number.
+     * Example: 123 becomes 321.
+     */
+    private static int reverseNumber(int num) {
 
         int rev = 0;
 
@@ -42,34 +44,46 @@ public class Sprint1 {
         return rev;
     }
 
+    public static void main(String[] args) {
 
-        // main method where I call me methods
-
-        public static void main(String[] args) {
-
-        // User can choose which method to be executed.
-
-        Scanner scanner = new Scanner (System.in);
+        Scanner scanner = new Scanner(System.in);
 
         System.out.println("Choose option");
         System.out.println("1 - Print prime number");
-        System.out.println("2 - Reverse Number ");
+        System.out.println("2 - Reverse Number");
 
-        int option = scanner.nextInt();
+        int option = 0;
 
+        // safe input for menu
+        try {
+            option = scanner.nextInt();
+        } catch (Exception e) {
+            System.out.println("Invalid input. Please enter a number.");
+            scanner.nextLine();
+            return;
+        }
 
+        if (option == 1) {
 
-        if (option == 1 ){
             printPrimeNumbers();
-        } else if (option==2){
-            System.out.println("Enter your number for reverse");
 
-            // user enter their number
+        } else if (option == 2) {
 
-            int num = scanner.nextInt();
-            int result = reverseNumber(num);
-            System.out.println("The reverse number is  " +  result);
-        } else {System.out.println("invalid option");}
+            System.out.println("Enter your number for reverse:");
 
+            int num = 0;
+
+            try {
+                num = scanner.nextInt();
+                int result = reverseNumber(num);
+                System.out.println("The reverse number is " + result);
+            } catch (Exception e) {
+                System.out.println("Invalid input. Please enter a whole number.");
+                scanner.nextLine();
+            }
+
+        } else {
+            System.out.println("Invalid option");
         }
     }
+}
