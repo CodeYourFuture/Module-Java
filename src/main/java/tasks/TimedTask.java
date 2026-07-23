@@ -3,7 +3,7 @@ package tasks;
 
 public class TimedTask  extends Task{
 
-    private String deadLine ;
+    private String deadline ;
 
     public TimedTask (String description , String deadline){
 
