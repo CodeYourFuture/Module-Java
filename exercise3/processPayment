@@ -1,0 +1,44 @@
+Exercise 3.3
+
+void processPayment(Payment payment) {
+    try {
+        cardProcessor.process(payment);
+    } catch(NoCardDetailsFoundException e) {
+        cashProcessor.process(payment);
+    }
+}
+
+Q1. Should try/catch blocks be used as part of ‘standard’ processing? e.g. say I have a payment processing system that
+    accepts cash or card, and I first attempt to process a card payment, before throwing an error and processing cash
+    if no card details are found:
+A1. It's not a great use here - processing different payment options should be offered, and not try the other if one
+    failed.
+
+Q2. Will this work correctly? If we know some payments will definitely be made by cash, is there a better way to handle
+    this? Why?
+A2. This will technically work but of course not in the best flow, since card payment will be the first option
+    regardless. Only if that failed, cash payment becomes an option.
+
+Q3. What are some potential problems with throwing errors like this? Think about: when we want to find out about errors
+    / unnecessary processing etc
+A3. The current implementation doesn't communicate the specific problem to the user. Did the issue happened because
+    wrong card details were entered? Was it because the card was invalid/expired? No enough balance? it just moves
+    to the cash options once the card payment fails.
+
+Q4. Update the above pseudocode to remove the try/catch block and handle the card/cash options more gracefully.
+    Feel free to invent some methods on Payment to help you!
+A4.
+
+void processPayment(Payment payment, String method) {
+
+    if (method.equals("card")) {
+        cardProcessor.process(payment);
+    } else {
+        cashProcessor.process(payment);
+    }
+
+}
+
+
+
+
