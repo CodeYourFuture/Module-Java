@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="Add a javadoc comments associated with all StringUtilitiesTest class test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise2.1-2.2/src/test/java/org/example/StringUtilitiesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercise2.1-2.2/src/test/java/org/example/StringUtilitiesTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="3GJnwCvzP6f3P4b7gJF1vkGVgQ7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.CalculatorTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StringUtilitiesTest.splitCommaSeparatedLine.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StringUtilitiesTest.testIsPalindrome.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StringUtilitiesTest.testIsPalindrome2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StringUtilitiesTest.testIsPalindrome3.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;prep/javadoc&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/h.o./IdeaProjects/Module-Java 15.20.35&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/h.o./IdeaProjects/Module-Java 15.20.35/exercise2.1/src/main/java/org/example/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.StringUtilitiesTest.splitCommaSeparatedLine">
+    <configuration name="StringUtilitiesTest.splitCommaSeparatedLine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exercise 1.3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StringUtilitiesTest" />
+      <option name="METHOD_NAME" value="splitCommaSeparatedLine" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringUtilitiesTest.testIsPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exercise 1.3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StringUtilitiesTest" />
+      <option name="METHOD_NAME" value="testIsPalindrome" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringUtilitiesTest.testIsPalindrome2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exercise 1.3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StringUtilitiesTest" />
+      <option name="METHOD_NAME" value="testIsPalindrome2(java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringUtilitiesTest.testIsPalindrome3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exercise 1.3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StringUtilitiesTest" />
+      <option name="METHOD_NAME" value="testIsPalindrome3(java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Module-Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Module-Java" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.StringUtilitiesTest.splitCommaSeparatedLine" />
+        <item itemvalue="JUnit.StringUtilitiesTest.testIsPalindrome3" />
+        <item itemvalue="JUnit.StringUtilitiesTest.testIsPalindrome2" />
+        <item itemvalue="JUnit.StringUtilitiesTest.testIsPalindrome" />
+        <item itemvalue="JUnit.StringUtilitiesTest.testIsPalindrome3" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.25134.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="" />
+      <created>1783698775219</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1783698775219</updated>
+      <workItem from="1783698776338" duration="22633000" />
+      <workItem from="1783929789244" duration="766000" />
+      <workItem from="1783959719443" duration="31000" />
+      <workItem from="1783960614649" duration="30000" />
+      <workItem from="1784580290433" duration="17371000" />
+      <workItem from="1784728613660" duration="122000" />
+      <workItem from="1784729561947" duration="103000" />
+      <workItem from="1784729977924" duration="42000" />
+      <workItem from="1784730480821" duration="486000" />
+      <workItem from="1784731854454" duration="1151000" />
+    </task>
+    <task id="LOCAL-00015" summary="Create a method addTask to store tasks into an array.">
+      <option name="closed" value="true" />
+      <created>1783790588622</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1783790588622</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Set up a parametrised constructor for the Task class">
+      <option name="closed" value="true" />
+      <created>1783790851745</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1783790851745</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Create a method that looks for tasks by their IDs and check id and complete them in case that're not already.">
+      <option name="closed" value="true" />
+      <created>1783791944007</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1783791944007</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Create a method that returns tasks based on their completion status">
+      <option name="closed" value="true" />
+      <created>1783874551992</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1783874551993</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Give both specialised tasks: PriorityTask and TimedTask classes their own constructors to resolve compilation issues">
+      <option name="closed" value="true" />
+      <created>1783875793838</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1783875793838</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Create a task instance and print its summary to the console">
+      <option name="closed" value="true" />
+      <created>1783876213123</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1783876213123</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Create a task instance and print its summary to the console">
+      <option name="closed" value="true" />
+      <created>1783876229486</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1783876229486</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Create a priority task instance and print its summary to the console">
+      <option name="closed" value="true" />
+      <created>1783877407601</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1783877407601</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Create a timed task instance and print its summary to the console">
+      <option name="closed" value="true" />
+      <created>1783878095434</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1783878095434</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Create a task manager instance that add different task types, complete tasks (if not complted already) and finally print out all task by status filter.">
+      <option name="closed" value="true" />
+      <created>1783878838086</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1783878838086</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Add validation inside TaskManager methods: completeTask() and getTaskByStatus() to perform actions only when a task exist inside the array of 10 spots.">
+      <option name="closed" value="true" />
+      <created>1783879312861</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1783879312861</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Redo the getTasksByStatus method again">
+      <option name="closed" value="true" />
+      <created>1783880843973</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1783880843973</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Override the default toString method so that the status of all completed tasks is showing">
+      <option name="closed" value="true" />
+      <created>1783881414026</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1783881414026</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Create Calculator class inside example.com package">
+      <option name="closed" value="true" />
+      <created>1784581222381</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1784581222381</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Create CalculatorTest class in the same package: com.example">
+      <option name="closed" value="true" />
+      <created>1784581362434</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1784581362434</updated>
+    </task>
+    <task id="LOCAL-00030" summary="create calculator of Calculator type and before each test run create an instance of that class.">
+      <option name="closed" value="true" />
+      <created>1784581522500</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1784581522500</updated>
+    </task>
+    <task id="LOCAL-00031" summary="filled out the test method testAdd with complete implementation with a test case">
+      <option name="closed" value="true" />
+      <created>1784582014165</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1784582014165</updated>
+    </task>
+    <task id="LOCAL-00032" summary="filled out the test method testDivide with complete implementation with a test case">
+      <option name="closed" value="true" />
+      <created>1784582142356</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1784582142356</updated>
+    </task>
+    <task id="LOCAL-00033" summary="*filled out the test method testDivideByZeroThrows with complete implementation with a test case&#10;&#10;* updated the failure message for all test methods to be more generic and not tied to the test cases">
+      <option name="closed" value="true" />
+      <created>1784582506254</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1784582506254</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Get rid of \ from org.junit.jupiter.api.Assertions at the top as it was causing a compilation issue">
+      <option name="closed" value="true" />
+      <created>1784582892668</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1784582892668</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Implement a method that returns the square of an integer.">
+      <option name="closed" value="true" />
+      <created>1784583005608</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1784583005608</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Implement a method that returns the square root of decimal-point number (double).">
+      <option name="closed" value="true" />
+      <created>1784583105341</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1784583105341</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Implement a test method to test the behaviour of testSquare() method.">
+      <option name="closed" value="true" />
+      <created>1784583474864</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1784583474864</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Implement a test method to test the behaviour of testSquareRoot() method.">
+      <option name="closed" value="true" />
+      <created>1784583622765</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1784583622765</updated>
+    </task>
+    <task id="LOCAL-00039" summary="update the squareRoot method to handle when values are negative">
+      <option name="closed" value="true" />
+      <created>1784583821814</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1784583821814</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Add a test method to test square root for negative values which should throw an exception">
+      <option name="closed" value="true" />
+      <created>1784584171037</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1784584171037</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Add a test case for testing the sare root for an irrational number. in this case a delta/tolerance should be added">
+      <option name="closed" value="true" />
+      <created>1784584426760</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1784584426760</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Create StringUtilitiesTest a test class with a BeforeEach annotation">
+      <option name="closed" value="true" />
+      <created>1784627051559</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1784627051559</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Create test cases checking if a string is palindrome with edge cases">
+      <option name="closed" value="true" />
+      <created>1784627626651</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1784627626651</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Create test cases (includeing edge cases) for test method splitCommaSeparatedLine">
+      <option name="closed" value="true" />
+      <created>1784628496344</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1784628496344</updated>
+    </task>
+    <task id="LOCAL-00045" summary="implement isPalindrome() method">
+      <option name="closed" value="true" />
+      <created>1784629303923</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1784629303923</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Added a regex for the split method to ensure that white spaces are removed from the individual strings in a list.">
+      <option name="closed" value="true" />
+      <created>1784630199767</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1784630199767</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Answer 2 questions from ex 1.2">
+      <option name="closed" value="true" />
+      <created>1784630403587</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1784630403587</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Answer 3 questions from ex 1.3">
+      <option name="closed" value="true" />
+      <created>1784631050684</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1784631050684</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Implement a test case for isPalindrome method using @ParameterizedTest and @CsvSource">
+      <option name="closed" value="true" />
+      <created>1784647826258</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1784647826258</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Implement a test case for isPalindrome method using @ParameterizedTest and @MethodSource">
+      <option name="closed" value="true" />
+      <created>1784649339141</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1784649339143</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Set up a maven-structured project for exercise 1.4">
+      <option name="closed" value="true" />
+      <created>1784649541822</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1784649541822</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Add the Calculator and StringUtilities classes as well as their tests classes">
+      <option name="closed" value="true" />
+      <created>1784649982821</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1784649982821</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Answer the question related to this segment of the exercise.">
+      <option name="closed" value="true" />
+      <created>1784650969926</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1784650969926</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Answer the automated testing reflection questions">
+      <option name="closed" value="true" />
+      <created>1784654552972</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1784654552972</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Write javadoc comments for the soruce class (Calculator).">
+      <option name="closed" value="true" />
+      <created>1784732395696</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1784732395696</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Add javadoc comments for the addition method add()">
+      <option name="closed" value="true" />
+      <created>1784732637929</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1784732637929</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Add StringUtilities and StringUtilitiesTest classes into their respective directories">
+      <option name="closed" value="true" />
+      <created>1784805846513</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1784805846514</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Add a javadoc comment associated with the StringUtilities class">
+      <option name="closed" value="true" />
+      <created>1784806346734</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1784806346734</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Add a javadoc comment associated with the isPalindrome() method">
+      <option name="closed" value="true" />
+      <created>1784806565041</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1784806565041</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Add a javadoc comment associated with the splitCommaSeparatedLine() methid">
+      <option name="closed" value="true" />
+      <created>1784806821447</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1784806821447</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Add a javadoc comment associated with the CalculatorTest class">
+      <option name="closed" value="true" />
+      <created>1784807712812</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1784807712812</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Add a javadoc comments associated with all CalculatorTest class test methods">
+      <option name="closed" value="true" />
+      <created>1784809054695</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1784809054695</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Add a javadoc comments associated with all StringUtilitiesTest class test">
+      <option name="closed" value="true" />
+      <created>1784811896914</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1784811896914</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update the squareRoot method to handle when values are negative" />
+    <MESSAGE value="Add a test method to test square root for negative values which should throw an exception" />
+    <MESSAGE value="Add a test case for testing the sare root for an irrational number. in this case a delta/tolerance should be added" />
+    <MESSAGE value="Create StringUtilitiesTest a test class with a BeforeEach annotation" />
+    <MESSAGE value="Create test cases checking if a string is palindrome with edge cases" />
+    <MESSAGE value="Create test cases (includeing edge cases) for test method splitCommaSeparatedLine" />
+    <MESSAGE value="implement isPalindrome() method" />
+    <MESSAGE value="Added a regex for the split method to ensure that white spaces are removed from the individual strings in a list." />
+    <MESSAGE value="Answer 2 questions from ex 1.2" />
+    <MESSAGE value="Answer 3 questions from ex 1.3" />
+    <MESSAGE value="Implement a test case for isPalindrome method using @ParameterizedTest and @CsvSource" />
+    <MESSAGE value="Implement a test case for isPalindrome method using @ParameterizedTest and @MethodSource" />
+    <MESSAGE value="Set up a maven-structured project for exercise 1.4" />
+    <MESSAGE value="Add the Calculator and StringUtilities classes as well as their tests classes" />
+    <MESSAGE value="Answer the question related to this segment of the exercise." />
+    <MESSAGE value="Answer the automated testing reflection questions" />
+    <MESSAGE value="Write javadoc comments for the soruce class (Calculator)." />
+    <MESSAGE value="Add javadoc comments for the addition method add()" />
+    <MESSAGE value="Add StringUtilities and StringUtilitiesTest classes into their respective directories" />
+    <MESSAGE value="Add a javadoc comment associated with the StringUtilities class" />
+    <MESSAGE value="Add a javadoc comment associated with the isPalindrome() method" />
+    <MESSAGE value="Add a javadoc comment associated with the splitCommaSeparatedLine() methid" />
+    <MESSAGE value="Add a javadoc comment associated with the CalculatorTest class" />
+    <MESSAGE value="Add a javadoc comments associated with all CalculatorTest class test methods" />
+    <MESSAGE value="Add a javadoc comments associated with all StringUtilitiesTest class test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add a javadoc comments associated with all StringUtilitiesTest class test" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/exercise2.1-2.2/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
